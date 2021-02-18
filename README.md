@@ -26,7 +26,6 @@ Quickly build and design new UI without writing CSS.
 * Lightweight (~14kB)
 * Usable across projects
 * Growing open source component library
-* Works well with plain HTML, React, Ember, Angular, Rails and more
 * Infinitely nestable responsive grid system
 * Built with PostCSS
 
@@ -44,55 +43,11 @@ to the minified file in the head of your HTML file.
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
 ```
 
-### Local Setup
-
-Clone the repo from Github and install dependencies through npm.
-
-```
-git clone https://github.com/tachyons-css/tachyons.git
-cd tachyons
-npm install
-```
-
-#### Dev
-
-If you want to just use everything in tachyons/src as a jumping off point and
-edit all the code yourself, you can compile all of your wonderful changes by
-running:
-
-```npm start```
-
-This will output both minified and unminified versions of the CSS to the CSS directory and watch the src directory for changes.
-It's aliased to the command:
-
-```npm run build:watch```
-
-If you'd like to just build the CSS once without watching the src directory, run:
-
-```npm run build```
-
-If you want to check that a class hasn't been redefined or 'mutated,' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own CSS and want to make sure there are no naming collisions. To do this run the command:
-
-```npm run mutations```
-
-## Docs
-
-The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
-
-You can clone the docs and use them as a template for documenting your own design system / patterns / components.
-While not everything is automated, the component library generation makes it extremely easy to
-generate and organize the documentation for components as demonstrated at http://tachyons.io/components
-
 ### Community Resources
 
 - [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
 - [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
 - [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
-
-## Tachyons in Production
-
-A longer list of sites that use tachyons in production can be found in sites.md
-We love letting the community see what people are building. Please add your link to sites.md in a PR or by opening an issue if you're willing to share to your site or project.
 
 ## Help
 
