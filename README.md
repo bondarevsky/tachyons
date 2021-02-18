@@ -1,4 +1,4 @@
-# custom tachyons
+# Custom Tachyons
 
 Functional CSS for humans.
 Quickly build and design new UI without writing CSS.
