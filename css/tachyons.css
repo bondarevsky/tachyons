@@ -680,34 +680,7 @@ img { max-width: 100%; }
 .flex-grow-1 { flex-grow: 1; }
 .flex-shrink-0 { flex-shrink: 0; }
 .flex-shrink-1 { flex-shrink: 1; }
-/*
 
-   FLOATS
-   http://tachyons.io/docs/layout/floats/
-
-   1. Floated elements are automatically rendered as block level elements.
-      Setting floats to display inline will fix the double margin bug in
-      ie6. You know... just in case.
-
-   2. Don't forget to clearfix your floats with .cf
-
-   Base:
-     f = float
-
-   Modifiers:
-     l = left
-     r = right
-     n = none
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.fl { float: left; _display: inline; }
-.fr { float: right; _display: inline; }
-.fn { float: none; }
 /*
 
    FONT FAMILY GROUPS
@@ -716,23 +689,12 @@ img { max-width: 100%; }
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
-.system-sans-serif { font-family: sans-serif; }
-.system-serif { font-family: serif; }
 /* Monospaced Typefaces (for code) */
-/* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
 .courier { font-family: 'Courier Next', courier, monospace; }
 /* Sans-Serif Typefaces */
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
-/* Serif Typefaces */
-.athelas { font-family: athelas, georgia, serif; }
-.georgia { font-family: georgia, serif; }
-.times { font-family: times, serif; }
-.bodoni { font-family: "Bodoni MT", serif; }
-.calisto { font-family: "Calisto MT", serif; }
-.garamond { font-family: garamond, serif; }
-.baskerville { font-family: baskerville, serif; }
 /*
 
    FONT STYLE
