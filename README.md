@@ -27,28 +27,3 @@ Quickly build and design new UI without writing CSS.
 * Usable across projects
 * Growing open source component library
 * Infinitely nestable responsive grid system
-* Built with PostCSS
-
-## Getting Started
-
-Docs can be found at http://tachyons.io/docs
-The modules are generally pretty small and thus quick and easy to read.
-
-### Use the CDN
-
-The quickest and easiest way to start using Tachyons is to include a reference
-to the minified file in the head of your HTML file.
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
-```
-
-### Community Resources
-
-- [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
-- [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
-- [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
-
-## Help
-
-If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
