@@ -4,20 +4,8 @@
 * https://fontawesome.com
 * https://asay.io
 * http://blunt.af/tachy.app/
-
-* https://coralproject.net
-* https://goldenstaterecord.com
-* http://www.sogol.co
-* http://lastjapan.com
 * https://segment.com
-* http://hicuties.com
-* https://urlbox.io
-* https://loronarecords.com
-* https://community.algolia.com/wordpress/
-* http://studiocraft.cc
-* http://samueldregan.com
-* https://filmstrip.cf
-* https://voteplz.com
+
 * http://bluebottlecoffee.com
 * http://cyclelove.cc
 * http://topher.design
