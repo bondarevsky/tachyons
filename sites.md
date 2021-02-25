@@ -6,13 +6,6 @@
 * http://blunt.af/tachy.app/
 * https://segment.com
 
-* http://bluebottlecoffee.com
-* http://cyclelove.cc
-* http://topher.design
-* http://kerem.co
-* http://iheanyi.com/
-* http://johnotander.com
-* https://vimgifs.com
 * http://jon.gold/txt
 * http://rene.jon.gold
 * https://tinychime.github.io/jekyons/
