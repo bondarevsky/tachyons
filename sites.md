@@ -1,16 +1,10 @@
 * https://gohugo.io
 * https://npmjs.com
 * https://antonsten.com
-* https://enbytech.github.io
 * https://fontawesome.com
 * https://asay.io
-* https://detroitjs.com
-* https://purple3.herokuapp.com
-* https://watsonmulkey.github.io
-* http://vuenosair.es
-* http://www.codeblocq.com
 * http://blunt.af/tachy.app/
-* https://aframevr-userland.github.io/mainframe/
+
 * https://coralproject.net
 * https://goldenstaterecord.com
 * http://www.sogol.co
