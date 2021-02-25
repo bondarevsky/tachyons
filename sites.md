@@ -5,19 +5,10 @@
 * https://asay.io
 * http://blunt.af/tachy.app/
 * https://segment.com
-
-* http://jon.gold/txt
-* http://rene.jon.gold
-* https://tinychime.github.io/jekyons/
-* http://prnt.cc
 * http://spenhar.com
-* http://randoma11y.com
-* http://www.csspurge.com
 * http://clrs.cc
-* https://cljsjs.github.io
 * https://www.getnoodl.es
 * https://natwelch.com
-
 * http://designbytyping.com
 * http://colepeters.com
 * http://aboutlife.com
