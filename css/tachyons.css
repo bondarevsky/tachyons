@@ -4,10 +4,6 @@
  *    3. Variables
  *       - Media Queries
  *       - Colors
- *    4. Debugging
- *       - Debug all
- *       - Debug children
- *
  */
 
 
@@ -133,8 +129,9 @@ img { max-width: 100%; }
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
-/*
 
+
+/*
    BORDER COLORS
    Docs: http://tachyons.io/docs/themes/borders/
 
@@ -150,8 +147,9 @@ img { max-width: 100%; }
 
    Modifiers:
    --color-name = each color variable name is also a border color name
-
 */
+
+
 .b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
@@ -216,8 +214,9 @@ img { max-width: 100%; }
 .b--inherit { border-color: inherit; }
 .b--initial { border-color: initial; }
 .b--unset { border-color: unset; }
-/*
 
+
+/*
    BORDER RADIUS
    Docs: http://tachyons.io/docs/themes/border-radius/
 
@@ -234,13 +233,9 @@ img { max-width: 100%; }
    Literal values:
      -100 = 100%
      -pill = 9999px
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
+
 .br0 { border-radius: 0; }
 .br1 { border-radius: .125rem; }
 .br2 { border-radius: .25rem; }
@@ -255,8 +250,9 @@ img { max-width: 100%; }
 .br-inherit { border-radius: inherit; }
 .br-initial { border-radius: initial; }
 .br-unset { border-radius: unset; }
-/*
 
+
+/*
    BORDER STYLES
    Docs: http://tachyons.io/docs/themes/borders/
 
@@ -270,19 +266,15 @@ img { max-width: 100%; }
      --dotted = dotted
      --dashed = dashed
      --solid  = solid
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
  */
+
 .b--dotted { border-style: dotted; }
 .b--dashed { border-style: dashed; }
 .b--solid { border-style: solid; }
 .b--none { border-style: none; }
-/*
 
+
+/*
    BORDER WIDTHS
    Docs: http://tachyons.io/docs/themes/borders/
 
@@ -296,13 +288,9 @@ img { max-width: 100%; }
      3 = 3rd step in border-width scale
      4 = 4th step in border-width scale
      5 = 5th step in border-width scale
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
+
 .bw0 { border-width: 0; }
 .bw1 { border-width: .125rem; }
 .bw2 { border-width: .25rem; }
@@ -314,30 +302,27 @@ img { max-width: 100%; }
 .br-0 { border-right-width: 0; }
 .bb-0 { border-bottom-width: 0; }
 .bl-0 { border-left-width: 0; }
-/*
 
+
+/*
   BOX-SHADOW
   Docs: http://tachyons.io/docs/themes/box-shadow/
+*/
 
-  Media Query Extensions:
-   -ns = not-small
-   -m  = medium
-   -l  = large
-
- */
 .shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
-/*
 
+/*
    CODE
-
 */
-.pre { overflow-x: auto; overflow-y: hidden; overflow: scroll; }
-/*
 
+.pre { overflow-x: auto; overflow-y: hidden; overflow: scroll; }
+
+
+/*
    COORDINATES
    Docs: http://tachyons.io/docs/layout/position/
 
@@ -355,13 +340,9 @@ img { max-width: 100%; }
      -2  = literal value 2
      --1 = literal value -1
      --2 = literal value -2
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
+
 .top-0 { top: 0; }
 .right-0 { right: 0; }
 .bottom-0 { bottom: 0; }
@@ -386,7 +367,6 @@ img { max-width: 100%; }
 
 
 /*
-
    DISPLAY
    Docs: http://tachyons.io/docs/layout/display
 
@@ -403,13 +383,8 @@ img { max-width: 100%; }
     t-row          = table-row
     t-columm       = table-column
     t-column-group = table-column-group
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 .dn { display: none; }
 .di { display: inline; }
 .db { display: block; }
@@ -421,21 +396,19 @@ img { max-width: 100%; }
 .dt-row-group { display: table-row-group; }
 .dt-column { display: table-column; }
 .dt-column-group { display: table-column-group; }
+
 /*
   This will set table to full width and then
   all cells will be equal width
 */
+
 .dt--fixed { table-layout: fixed; width: 100%; }
+
+
 /*
-
   FLEXBOX
-
-  Media Query Extensions:
-   -ns = not-small
-   -m  = medium
-   -l  = large
-
 */
+
 .flex { display: flex; }
 .inline-flex { display: inline-flex; }
 /* 1. Fix for Chrome 44 bug.
@@ -485,15 +458,16 @@ img { max-width: 100%; }
 .flex-shrink-0 { flex-shrink: 0; }
 .flex-shrink-1 { flex-shrink: 1; }
 
-/*
 
+/*
    FORMS
-   
 */
+
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
-/*
 
+
+/*
    HEIGHTS
    Docs: http://tachyons.io/docs/layout/heights/
 
@@ -545,54 +519,49 @@ img { max-width: 100%; }
 /* String Properties */
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
-/*
 
+
+/*
    LETTER SPACING
    Docs: http://tachyons.io/docs/typography/tracking/
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 .tracked { letter-spacing: .1em; }
 .tracked-tight { letter-spacing: -.05em; }
 .tracked-mega { letter-spacing: .25em; }
-/*
 
+
+/*
    LINE HEIGHT / LEADING
    Docs: http://tachyons.io/docs/typography/line-height
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.25; }
 .lh-copy { line-height: 1.5; }
-/*
 
+
+/*
    LINKS
    Docs: http://tachyons.io/docs/elements/links/
-
 */
+
 .link { text-decoration: none; transition: color .15s ease-in; }
 .link:link, .link:visited { transition: color .15s ease-in; }
 .link:hover { transition: color .15s ease-in; }
 .link:active { transition: color .15s ease-in; }
 .link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
-/*
 
+
+/*
    LISTS
    http://tachyons.io/docs/elements/lists/
-
 */
-.list { list-style-type: none; }
-/*
 
+.list { list-style-type: none; }
+
+
+/*
    MAX WIDTHS
    Docs: http://tachyons.io/docs/layout/max-widths/
 
@@ -613,14 +582,9 @@ img { max-width: 100%; }
      -100 = literal value 100%
 
      -none  = string value none
-
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
+
 /* Max Width Percentages */
 .mw-100 { max-width: 100%; }
 /* Max Width Scale */
@@ -633,10 +597,13 @@ img { max-width: 100%; }
 .mw7 { max-width: 48rem; }
 .mw8 { max-width: 64rem; }
 .mw9 { max-width: 96rem; }
+
+
 /* Max Width String Properties */
 .mw-none { max-width: none; }
-/*
 
+
+/*
    WIDTHS
    Docs: http://tachyons.io/docs/layout/widths/
 
@@ -668,14 +635,9 @@ img { max-width: 100%; }
      -third      = 100% / 3 (Not supported in opera mini or IE8)
      -two-thirds = 100% / 1.5 (Not supported in opera mini or IE8)
      -auto       = string value auto
-
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
+
 /* Width Scale */
 .w1 { width: 1rem; }
 .w2 { width: 2rem; }
@@ -699,16 +661,12 @@ img { max-width: 100%; }
 .w-third { width: 33.33333%; }
 .w-two-thirds { width: 66.66667%; }
 .w-auto { width: auto; }
+
+
 /*
-
-    OVERFLOW
-
-    Media Query Extensions:
-      -ns = not-small
-      -m  = medium
-      -l  = large
-
+   OVERFLOW
  */
+
 .overflow-visible { overflow: visible; }
 .overflow-hidden { overflow: hidden; }
 .overflow-scroll { overflow: scroll; }
@@ -721,27 +679,24 @@ img { max-width: 100%; }
 .overflow-y-hidden { overflow-y: hidden; }
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
-/*
 
+
+/*
    POSITIONING
    Docs: http://tachyons.io/docs/layout/position/
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 .static { position: static; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
-/*
 
+
+/*
     OPACITY
     Docs: http://tachyons.io/docs/themes/opacity/
-
 */
+
 .o-100 { opacity: 1; }
 .o-90 { opacity: .9; }
 .o-80 { opacity: .8; }
@@ -755,11 +710,12 @@ img { max-width: 100%; }
 .o-05 { opacity: .05; }
 .o-025 { opacity: .025; }
 .o-0 { opacity: 0; }
+
+
 /*
-
    ROTATIONS
-
 */
+
 .rotate-45 { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
 .rotate-90 { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
 .rotate-135 { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
@@ -767,16 +723,14 @@ img { max-width: 100%; }
 .rotate-225 { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
 .rotate-270 { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
 .rotate-315 { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
-/*
 
+
+/*
    SKINS
    Docs: http://tachyons.io/docs/themes/skins/
-
-   Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
-
 */
+
+
 /* Text colors */
 .black-90 { color: rgba( 0, 0, 0, .9 ); }
 .black-80 { color: rgba( 0, 0, 0, .8 ); }
@@ -834,6 +788,8 @@ img { max-width: 100%; }
 .washed-yellow { color: #fffceb; }
 .washed-red { color: #ffdfdf; }
 .color-inherit { color: inherit; }
+
+
 /* Background colors */
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
@@ -892,6 +848,8 @@ img { max-width: 100%; }
 .bg-washed-yellow { background-color: #fffceb; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-inherit { background-color: inherit; }
+
+
 /* 
   
    SKINS:PSEUDO
@@ -900,6 +858,7 @@ img { max-width: 100%; }
    it is focused or hovered over.
  
  */
+
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
 .hover-near-black:hover { color: #111; }
@@ -1120,6 +1079,8 @@ img { max-width: 100%; }
 .hover-bg-washed-red:hover { background-color: #ffdfdf; }
 .hover-bg-washed-red:focus { background-color: #ffdfdf; }
 .hover-bg-inherit:hover, .hover-bg-inherit:focus { background-color: inherit; }
+
+
 /* Variables */
 /*
    SPACING
@@ -1148,11 +1109,6 @@ img { max-width: 100%; }
      5 = 5th step in spacing scale
      6 = 6th step in spacing scale
      7 = 7th step in spacing scale
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
 
 */
 .pa0 { padding: 0; }
@@ -1283,18 +1239,12 @@ img { max-width: 100%; }
      5 = 5th step in size scale
      6 = 6th step in size scale
      7 = 7th step in size scale
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
 */
+
 /*
- * For Hero/Marketing Titles
- *
- * These generally are too large for mobile
- * so be careful using them on smaller screens.
- * */
+   For Hero/Marketing Titles
+*/
+
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
@@ -1305,18 +1255,13 @@ img { max-width: 100%; }
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
 .f7 { font-size: .75rem; }
-/* Small and hard to read for many people so use with extreme caution */
-/*
 
+
+/*
    TYPOGRAPHY
    http://tachyons.io/docs/typography/measure/
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 /* Measure is limited to ~66 characters */
 .measure { max-width: 30em; }
 /* Measure is limited to ~80 characters */
@@ -1328,64 +1273,41 @@ img { max-width: 100%; }
 .small-caps { font-variant: small-caps; }
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+
 /*
-
    UTILITIES
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left: auto; }
-/*
 
-   VISIBILITY
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
 
 /*
-
    WHITE SPACE
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
+
+
 /*
-
    VERTICAL ALIGN
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+
 .v-base { vertical-align: baseline; }
 .v-mid { vertical-align: middle; }
 .v-top { vertical-align: top; }
 .v-btm { vertical-align: bottom; }
-/*
 
+
+/*
   HOVER EFFECTS
   Docs: http://tachyons.io/docs/themes/hovers/
-
     - Dim
     - Glow
     - Hide Child
@@ -1393,13 +1315,13 @@ img { max-width: 100%; }
     - Grow
     - Pointer
     - Shadow
-
 */
+
+
 /*
-
   Dim element on hover by adding the dim class.
-
 */
+
 .dim { opacity: 1; transition: opacity .15s ease-in; }
 .dim:hover, .dim:focus { opacity: .5; transition: opacity .15s ease-in; }
 .dim:active { opacity: .8; transition: opacity .15s ease-out; }
@@ -1451,38 +1373,8 @@ img { max-width: 100%; }
 .bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
 
 
-/*
-    NESTED
-    Tachyons module for styling nested elements
-    that are generated by a cms.
-*/
-.nested-copy-line-height p, .nested-copy-line-height ul,
-.nested-copy-line-height ol { line-height: 1.5; }
-.nested-headline-line-height h1, .nested-headline-line-height h2,
-.nested-headline-line-height h3, .nested-headline-line-height h4,
-.nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.25; }
-.nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
-.nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
-.nested-copy-separator p+p { margin-top: 1.5em; }
-.nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; transition: color .15s ease-in; }
-.nested-links a:hover { color: #96ccff; transition: color .15s ease-in; }
-.nested-links a:focus { color: #96ccff; transition: color .15s ease-in; }
-
-
-/*
-
-  STYLES
-  Add custom styles here.
-
-*/
-
 /* Variables */
-
-/* Importing here will allow you to override any variables in the modules */
 /*
-
-   Tachyons
    COLOR VARIABLES
 
    Grayscale
@@ -1523,36 +1415,9 @@ img { max-width: 100%; }
 
 */
 
+
 /* Media Queries */
-/* Debugging */
 
-/*
-  DEBUG CHILDREN
-  Docs: http://tachyons.io/docs/debug/
-
-  Just add the debug class to any element to see outlines on its
-  children.
-*/
-
-.debug * { outline: 1px solid gold; }
-.debug-white * { outline: 1px solid white; }
-.debug-black * { outline: 1px solid black; }
-/*
-
-   DEBUG GRID
-   http://tachyons.io/docs/debug-grid/
-
-   Can be useful for debugging layout issues
-   or helping to make sure things line up perfectly.
-   Just tack one of these classes onto a parent element.
-
-*/
-.debug-grid { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII= ) repeat top left; }
-.debug-grid-16 { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII= ) repeat top left; }
-.debug-grid-8-solid { background: white url( data:image/gif;base64,R0lGODdhCAAIAPEAAADw/wDx/////wAAACwAAAAACAAIAAACDZQvgaeb/lxbAIKA8y0AOw== ) repeat top left; }
-.debug-grid-16-solid { background: white url( data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7 ) repeat top left; }
-/* Uncomment out the line below to help debug layout issues */
-/* @import './_debug'; */
 @media screen and (min-width: 30em) {
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
@@ -1979,6 +1844,7 @@ img { max-width: 100%; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
 }
+
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }
  .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
@@ -2405,6 +2271,7 @@ img { max-width: 100%; }
  .v-top-m { vertical-align: top; }
  .v-btm-m { vertical-align: bottom; }
 }
+
 @media screen and (min-width: 60em) {
  .aspect-ratio-l { height: 0; position: relative; }
  .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
