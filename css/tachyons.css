@@ -666,71 +666,6 @@ img { max-width: 100%; }
 
 /*
 
-   FONT FAMILY GROUPS
-   Docs: http://tachyons.io/docs/typography/font-family/
-
-*/
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
-.serif { font-family: georgia, times, serif; }
-
-/* Monospaced Typefaces (for code) */
-code, .code { font-family: Consolas, monaco, monospace; }
-.courier { font-family: 'Courier Next', courier, monospace; }
-
-/* Sans-Serif Typefaces */
-.helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
-.avenir { font-family: 'avenir next', avenir, sans-serif; }
-/*
-
-   FONT STYLE
-   Docs: http://tachyons.io/docs/typography/font-style/
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.i { font-style: italic; }
-.fs-normal { font-style: normal; }
-/*
-
-   FONT WEIGHT
-   Docs: http://tachyons.io/docs/typography/font-weight/
-
-   Base
-     fw = font-weight
-
-   Modifiers:
-     1 = literal value 100
-     2 = literal value 200
-     3 = literal value 300
-     4 = literal value 400
-     5 = literal value 500
-     6 = literal value 600
-     7 = literal value 700
-     8 = literal value 800
-     9 = literal value 900
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.normal { font-weight: normal; }
-.b { font-weight: bold; }
-.fw1 { font-weight: 100; }
-.fw2 { font-weight: 200; }
-.fw3 { font-weight: 300; }
-.fw4 { font-weight: 400; }
-.fw5 { font-weight: 500; }
-.fw6 { font-weight: 600; }
-.fw7 { font-weight: 700; }
-.fw8 { font-weight: 800; }
-.fw9 { font-weight: 900; }
-/*
-
    FORMS
    
 */
@@ -1511,74 +1446,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mh5 { margin-left: 4rem; margin-right: 4rem; }
 .mh6 { margin-left: 8rem; margin-right: 8rem; }
 .mh7 { margin-left: 16rem; margin-right: 16rem; }
+
+
 /*
-   NEGATIVE MARGINS
-
-   Base:
-     n = negative
-
-   Modifiers:
-     a = all
-     t = top
-     r = right
-     b = bottom
-     l = left
-
-     1 = 1st step in spacing scale
-     2 = 2nd step in spacing scale
-     3 = 3rd step in spacing scale
-     4 = 4th step in spacing scale
-     5 = 5th step in spacing scale
-     6 = 6th step in spacing scale
-     7 = 7th step in spacing scale
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.na1 { margin: -0.25rem; }
-.na2 { margin: -0.5rem; }
-.na3 { margin: -1rem; }
-.na4 { margin: -2rem; }
-.na5 { margin: -4rem; }
-.na6 { margin: -8rem; }
-.na7 { margin: -16rem; }
-.nl1 { margin-left: -0.25rem; }
-.nl2 { margin-left: -0.5rem; }
-.nl3 { margin-left: -1rem; }
-.nl4 { margin-left: -2rem; }
-.nl5 { margin-left: -4rem; }
-.nl6 { margin-left: -8rem; }
-.nl7 { margin-left: -16rem; }
-.nr1 { margin-right: -0.25rem; }
-.nr2 { margin-right: -0.5rem; }
-.nr3 { margin-right: -1rem; }
-.nr4 { margin-right: -2rem; }
-.nr5 { margin-right: -4rem; }
-.nr6 { margin-right: -8rem; }
-.nr7 { margin-right: -16rem; }
-.nb1 { margin-bottom: -0.25rem; }
-.nb2 { margin-bottom: -0.5rem; }
-.nb3 { margin-bottom: -1rem; }
-.nb4 { margin-bottom: -2rem; }
-.nb5 { margin-bottom: -4rem; }
-.nb6 { margin-bottom: -8rem; }
-.nb7 { margin-bottom: -16rem; }
-.nt1 { margin-top: -0.25rem; }
-.nt2 { margin-top: -0.5rem; }
-.nt3 { margin-top: -1rem; }
-.nt4 { margin-top: -2rem; }
-.nt5 { margin-top: -4rem; }
-.nt6 { margin-top: -8rem; }
-.nt7 { margin-top: -16rem; }
-/*
-
   TABLES
   Docs: http://tachyons.io/docs/elements/tables/
-
 */
+
 .collapse { border-collapse: collapse; border-spacing: 0; }
 .striped--light-silver:nth-child(odd) { background-color: #aaa; }
 .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
@@ -1586,70 +1460,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
 .stripe-light:nth-child(odd) { background-color: rgba( 255, 255, 255, .1 ); }
 .stripe-dark:nth-child(odd) { background-color: rgba( 0, 0, 0, .1 ); }
-/*
-
-   TEXT DECORATION
-   Docs: http://tachyons.io/docs/typography/text-decoration/
 
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.strike { text-decoration: line-through; }
-.underline { text-decoration: underline; }
-.no-underline { text-decoration: none; }
-/*
-
-  TEXT ALIGN
-  Docs: http://tachyons.io/docs/typography/text-align/
-
-  Base
-    t = text-align
-
-  Modifiers
-    l = left
-    r = right
-    c = center
-    j = justify
-
-  Media Query Extensions:
-    -ns = not-small
-    -m  = medium
-    -l  = large
-
-*/
-.tl { text-align: left; }
-.tr { text-align: right; }
-.tc { text-align: center; }
-.tj { text-align: justify; }
-/*
-
-   TEXT TRANSFORM
-   Docs: http://tachyons.io/docs/typography/text-transform/
-
-   Base:
-     tt = text-transform
-
-   Modifiers
-     c = capitalize
-     l = lowercase
-     u = uppercase
-     n = none
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.ttc { text-transform: capitalize; }
-.ttl { text-transform: lowercase; }
-.ttu { text-transform: uppercase; }
-.ttn { text-transform: none; }
-/*
 
    TYPE SCALE
    Docs: http://tachyons.io/docs/typography/scale/
@@ -1735,11 +1547,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -l  = large
 
 */
-/*
-    Text that is hidden but accessible
-    Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*/
-.clip { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+
 /*
 
    WHITE SPACE
