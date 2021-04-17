@@ -1,9 +1,9 @@
-# Custom Tachyons
+# custom tachyons
 
 Functional CSS for humans.
 Quickly build and design new UI without writing CSS.
 
-## Principles
+## principles
 
 * Everything should be 100% responsive
 * Everything should be readable on any device
@@ -15,7 +15,7 @@ Quickly build and design new UI without writing CSS.
 * CSS shouldn't impede accessibility or the default functionality of HTML
 * You should send the smallest possible amount of code to the user
 
-## Features
+## features
 
 * Mobile-first CSS architecture
 * 490 accessible color combinations
